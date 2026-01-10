@@ -1,4 +1,4 @@
-CREATE SCHEMA IF NOT EXISTS analytics;
+
 
 CREATE TABLE IF NOT EXISTS analytics.dim_customers (
     customer_id VARCHAR(50),

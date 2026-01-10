@@ -14,5 +14,4 @@ FROM analytics.fact_orders f
 JOIN analytics.dim_products p
 ON f.product_id = p.product_id
 GROUP BY 1
-ORDER BY revenue DESC
-LIMIT 10;
+ORDER BY revenue DESC;
